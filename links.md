@@ -1,3 +1,27 @@
+### 50MB
+
+- ```https://pencilfiles.blockly.cf/pencilfiles-50mb.zip```
+- ```https://pencilfiles.blockly.gq/pencilfiles-50mb.zip```
+- ```https://pencilfiles.blockly.tk/pencilfiles-50mb.zip```
+- ```https://pencilfiles.gssmc.cf/pencilfiles-50mb.zip```
+- ```https://pencilfiles.gssmc.gq/pencilfiles-50mb.zip```
+- ```https://pencilfiles.gssmc.tk/pencilfiles-50mb.zip```
+- ```https://pencilfiles.itkyou.cf/pencilfiles-50mb.zip```
+- ```https://pencilfiles.itkyou.gq/pencilfiles-50mb.zip```
+- ```https://pencilfiles.itkyou.tk/pencilfiles-50mb.zip```
+- ```https://pencilfiles.ityou.cf/pencilfiles-50mb.zip```
+- ```https://pencilfiles.ityou.gq/pencilfiles-50mb.zip```
+- ```https://pencilfiles.ityou.tk/pencilfiles-50mb.zip```
+- ```https://pencilfiles.kiring.cf/pencilfiles-50mb.zip```
+- ```https://pencilfiles.kiring.gq/pencilfiles-50mb.zip```
+- ```https://pencilfiles.kiring.tk/pencilfiles-50mb.zip```
+- ```https://pencilfiles.rosmontics.cf/pencilfiles-50mb.zip```
+- ```https://pencilfiles.rosmontics.gq/pencilfiles-50mb.zip```
+- ```https://pencilfiles.rosmontics.tk/pencilfiles-50mb.zip```
+- ```https://pencilfiles.annonymus.cf/pencilfiles-50mb.zip```
+- ```https://pencilfiles.annonymus.gq/pencilfiles-50mb.zip```
+- ```https://pencilfiles.annonymus.tk/pencilfiles-50mb.zip```
+    
 ### 100MB
 
 - ```https://pencilfiles.blockly.cf/pencilfiles-100mb.zip```
