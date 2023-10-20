@@ -1,0 +1,23 @@
+### CloudflareST Links (CN only)
+
+- ```https://pencilfiles.blockly.cf/cloudflarest-100mb.zip```
+- ```https://pencilfiles.blockly.gq/cloudflarest-100mb.zip```
+- ```https://pencilfiles.blockly.tk/cloudflarest-100mb.zip```
+- ```https://pencilfiles.gssmc.cf/cloudflarest-100mb.zip```
+- ```https://pencilfiles.gssmc.gq/cloudflarest-100mb.zip```
+- ```https://pencilfiles.gssmc.tk/cloudflarest-100mb.zip```
+- ```https://pencilfiles.itkyou.cf/cloudflarest-100mb.zip```
+- ```https://pencilfiles.itkyou.gq/cloudflarest-100mb.zip```
+- ```https://pencilfiles.itkyou.tk/cloudflarest-100mb.zip```
+- ```https://pencilfiles.ityou.cf/cloudflarest-100mb.zip```
+- ```https://pencilfiles.ityou.gq/cloudflarest-100mb.zip```
+- ```https://pencilfiles.ityou.tk/cloudflarest-100mb.zip```
+- ```https://pencilfiles.kiring.cf/cloudflarest-100mb.zip```
+- ```https://pencilfiles.kiring.gq/cloudflarest-100mb.zip```
+- ```https://pencilfiles.kiring.tk/cloudflarest-100mb.zip```
+- ```https://pencilfiles.rosmontics.cf/cloudflarest-100mb.zip```
+- ```https://pencilfiles.rosmontics.gq/cloudflarest-100mb.zip```
+- ```https://pencilfiles.rosmontics.tk/cloudflarest-100mb.zip```
+- ```https://pencilfiles.annonymus.cf/cloudflarest-100mb.zip```
+- ```https://pencilfiles.annonymus.gq/cloudflarest-100mb.zip```
+- ```https://pencilfiles.annonymus.tk/cloudflarest-100mb.zip```
