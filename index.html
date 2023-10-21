@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PencilFiles</title>
+    <link rel="icon" href="https://999857.xyz/assets/images/icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        background-color: #f5f5f5;
+      }
+
+      header {
+        background-color: #1976d2;
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+      }
+
+      .button {
+        padding: 1rem 2rem;
+        background-color: #1976d2;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0.5rem;
+        transition: background-color 0.3s ease;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+          0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      }
+
+      .button:hover {
+        background-color: #0d47a1;
+      }
+
+      #download-link {
+        margin-top: 2rem;
+        text-align: center;
+      }
+
+      footer {
+        background-color: #1976d2;
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+        <div class="button-container">
+          <button class="button" onclick="generateLink(50)">
+            <i class="material-icons">cloud_download</i> <h3>50 MB</h1>
+          </button>
+          <button class="button" onclick="generateLink(100)">
+            <i class="material-icons">cloud_download</i> <h3>100 MB</h1>
+          </button>
+          <button class="button" onclick="generateLink(200)">
+            <i class="material-icons">cloud_download</i> <h3>200 MB</h1>
+          </button>
+          <button class="button" onclick="generateLink(300)">
+            <i class="material-icons">cloud_download</i> <h3>300 MB</h1>
+          </button>
+          <button class="button" onclick="generateLink(400)">
+            <i class="material-icons">cloud_download</i> <h3>400 MB</h1>
+          </button>
+          <button class="button" onclick="generateLink(500)">
+            <i class="material-icons">cloud_download</i> <h3>500 MB</h1>
+          </button>
+        </div>
+        <div id="download-link"></div>
+      </main>
+    <script>
+      function generateLink(fileSize) {
+        const links = {
+          50: [
+            "https://pencilfiles.blockly.cf/pencilfiles-50mb.zip",
+            "https://pencilfiles.blockly.gq/pencilfiles-50mb.zip",
+            "https://pencilfiles.blockly.tk/pencilfiles-50mb.zip",
+            "https://pencilfiles.gssmc.cf/pencilfiles-50mb.zip",
+            "https://pencilfiles.gssmc.gq/pencilfiles-50mb.zip",
+            "https://pencilfiles.gssmc.tk/pencilfiles-50mb.zip",
+            "https://pencilfiles.itkyou.cf/pencilfiles-50mb.zip",
+            "https://pencilfiles.itkyou.gq/pencilfiles-50mb.zip",
+            "https://pencilfiles.itkyou.tk/pencilfiles-50mb.zip",
+            "https://pencilfiles.ityou.cf/pencilfiles-50mb.zip",
+            "https://pencilfiles.ityou.gq/pencilfiles-50mb.zip",
+            "https://pencilfiles.ityou.tk/pencilfiles-50mb.zip",
+            "https://pencilfiles.kiring.cf/pencilfiles-50mb.zip",
+            "https://pencilfiles.kiring.gq/pencilfiles-50mb.zip",
+            "https://pencilfiles.kiring.tk/pencilfiles-50mb.zip",
+            "https://pencilfiles.rosmontics.cf/pencilfiles-50mb.zip",
+            "https://pencilfiles.rosmontics.gq/pencilfiles-50mb.zip",
+            "https://pencilfiles.rosmontics.tk/pencilfiles-50mb.zip",
+            "https://pencilfiles.annonymus.cf/pencilfiles-50mb.zip",
+            "https://pencilfiles.annonymus.gq/pencilfiles-50mb.zip",
+            "https://pencilfiles.annonymus.tk/pencilfiles-50mb.zip"
+          ],
+          100: [
+            "https://pencilfiles.blockly.cf/pencilfiles-100mb.zip",
+            "https://pencilfiles.blockly.gq/pencilfiles-100mb.zip",
+            "https://pencilfiles.blockly.tk/pencilfiles-100mb.zip",
+            "https://pencilfiles.gssmc.cf/pencilfiles-100mb.zip",
+            "https://pencilfiles.gssmc.gq/pencilfiles-100mb.zip",
+            "https://pencilfiles.gssmc.tk/pencilfiles-100mb.zip",
+            "https://pencilfiles.itkyou.cf/pencilfiles-100mb.zip",
+            "https://pencilfiles.itkyou.gq/pencilfiles-100mb.zip",
+            "https://pencilfiles.itkyou.tk/pencilfiles-100mb.zip",
+            "https://pencilfiles.ityou.cf/pencilfiles-100mb.zip",
+            "https://pencilfiles.ityou.gq/pencilfiles-100mb.zip",
+            "https://pencilfiles.ityou.tk/pencilfiles-100mb.zip",
+            "https://pencilfiles.kiring.cf/pencilfiles-100mb.zip",
+            "https://pencilfiles.kiring.gq/pencilfiles-100mb.zip",
+            "https://pencilfiles.kiring.tk/pencilfiles-100mb.zip",
+            "https://pencilfiles.rosmontics.cf/pencilfiles-100mb.zip",
+            "https://pencilfiles.rosmontics.gq/pencilfiles-100mb.zip",
+            "https://pencilfiles.rosmontics.tk/pencilfiles-100mb.zip",
+            "https://pencilfiles.annonymus.cf/pencilfiles-100mb.zip",
+            "https://pencilfiles.annonymus.gq/pencilfiles-100mb.zip",
+            "https://pencilfiles.annonymus.tk/pencilfiles-100mb.zip"
+          ],
+          200: [
+            "https://pencilfiles.blockly.cf/pencilfiles-200mb.zip",
+            "https://pencilfiles.blockly.gq/pencilfiles-200mb.zip",
+            "https://pencilfiles.blockly.tk/pencilfiles-200mb.zip",
+            "https://pencilfiles.gssmc.cf/pencilfiles-200mb.zip",
+            "https://pencilfiles.gssmc.gq/pencilfiles-200mb.zip",
+            "https://pencilfiles.gssmc.tk/pencilfiles-200mb.zip",
+            "https://pencilfiles.itkyou.cf/pencilfiles-200mb.zip",
+            "https://pencilfiles.itkyou.gq/pencilfiles-200mb.zip",
+            "https://pencilfiles.itkyou.tk/pencilfiles-200mb.zip",
+            "https://pencilfiles.ityou.cf/pencilfiles-200mb.zip",
+            "https://pencilfiles.ityou.gq/pencilfiles-200mb.zip",
+            "https://pencilfiles.ityou.tk/pencilfiles-200mb.zip",
+            "https://pencilfiles.kiring.cf/pencilfiles-200mb.zip",
+            "https://pencilfiles.kiring.gq/pencilfiles-200mb.zip",
+            "https://pencilfiles.kiring.tk/pencilfiles-200mb.zip",
+            "https://pencilfiles.rosmontics.cf/pencilfiles-200mb.zip",
+            "https://pencilfiles.rosmontics.gq/pencilfiles-200mb.zip",
+            "https://pencilfiles.rosmontics.tk/pencilfiles-200mb.zip",
+            "https://pencilfiles.annonymus.cf/pencilfiles-200mb.zip",
+            "https://pencilfiles.annonymus.gq/pencilfiles-200mb.zip",
+            "https://pencilfiles.annonymus.tk/pencilfiles-200mb.zip"
+          ],
+          300: [
+            "https://pencilfiles.blockly.cf/pencilfiles-300mb.zip",
+            "https://pencilfiles.blockly.gq/pencilfiles-300mb.zip",
+            "https://pencilfiles.blockly.tk/pencilfiles-300mb.zip",
+            "https://pencilfiles.gssmc.cf/pencilfiles-300mb.zip",
+            "https://pencilfiles.gssmc.gq/pencilfiles-300mb.zip",
+            "https://pencilfiles.gssmc.tk/pencilfiles-300mb.zip",
+            "https://pencilfiles.itkyou.cf/pencilfiles-300mb.zip",
+            "https://pencilfiles.itkyou.gq/pencilfiles-300mb.zip",
+            "https://pencilfiles.itkyou.tk/pencilfiles-300mb.zip",
+            "https://pencilfiles.ityou.cf/pencilfiles-300mb.zip",
+            "https://pencilfiles.ityou.gq/pencilfiles-300mb.zip",
+            "https://pencilfiles.ityou.tk/pencilfiles-300mb.zip",
+            "https://pencilfiles.kiring.cf/pencilfiles-300mb.zip",
+            "https://pencilfiles.kiring.gq/pencilfiles-300mb.zip",
+            "https://pencilfiles.kiring.tk/pencilfiles-300mb.zip",
+            "https://pencilfiles.rosmontics.cf/pencilfiles-300mb.zip",
+            "https://pencilfiles.rosmontics.gq/pencilfiles-300mb.zip",
+            "https://pencilfiles.rosmontics.tk/pencilfiles-300mb.zip",
+            "https://pencilfiles.annonymus.cf/pencilfiles-300mb.zip",
+            "https://pencilfiles.annonymus.gq/pencilfiles-300mb.zip",
+            "https://pencilfiles.annonymus.tk/pencilfiles-300mb.zip"
+          ],
+          400: [
+            "https://pencilfiles.blockly.cf/pencilfiles-400mb.zip",
+            "https://pencilfiles.blockly.gq/pencilfiles-400mb.zip",
+            "https://pencilfiles.blockly.tk/pencilfiles-400mb.zip",
+            "https://pencilfiles.gssmc.cf/pencilfiles-400mb.zip",
+            "https://pencilfiles.gssmc.gq/pencilfiles-400mb.zip",
+            "https://pencilfiles.gssmc.tk/pencilfiles-400mb.zip",
+            "https://pencilfiles.itkyou.cf/pencilfiles-400mb.zip",
+            "https://pencilfiles.itkyou.gq/pencilfiles-400mb.zip",
+            "https://pencilfiles.itkyou.tk/pencilfiles-400mb.zip",
+            "https://pencilfiles.ityou.cf/pencilfiles-400mb.zip",
+            "https://pencilfiles.ityou.gq/pencilfiles-400mb.zip",
+            "https://pencilfiles.ityou.tk/pencilfiles-400mb.zip",
+            "https://pencilfiles.kiring.cf/pencilfiles-400mb.zip",
+            "https://pencilfiles.kiring.gq/pencilfiles-400mb.zip",
+            "https://pencilfiles.kiring.tk/pencilfiles-400mb.zip",
+            "https://pencilfiles.rosmontics.cf/pencilfiles-400mb.zip",
+            "https://pencilfiles.rosmontics.gq/pencilfiles-400mb.zip",
+            "https://pencilfiles.rosmontics.tk/pencilfiles-400mb.zip",
+            "https://pencilfiles.annonymus.cf/pencilfiles-400mb.zip",
+            "https://pencilfiles.annonymus.gq/pencilfiles-400mb.zip",
+            "https://pencilfiles.annonymus.tk/pencilfiles-400mb.zip"
+          ],
+          500: [
+            "https://pencilfiles.blockly.cf/pencilfiles-500mb.zip",
+            "https://pencilfiles.blockly.gq/pencilfiles-500mb.zip",
+            "https://pencilfiles.blockly.tk/pencilfiles-500mb.zip",
+            "https://pencilfiles.gssmc.cf/pencilfiles-500mb.zip",
+            "https://pencilfiles.gssmc.gq/pencilfiles-500mb.zip",
+            "https://pencilfiles.gssmc.tk/pencilfiles-500mb.zip",
+            "https://pencilfiles.itkyou.cf/pencilfiles-500mb.zip",
+            "https://pencilfiles.itkyou.gq/pencilfiles-500mb.zip",
+            "https://pencilfiles.itkyou.tk/pencilfiles-500mb.zip",
+            "https://pencilfiles.ityou.cf/pencilfiles-500mb.zip",
+            "https://pencilfiles.ityou.gq/pencilfiles-500mb.zip",
+            "https://pencilfiles.ityou.tk/pencilfiles-500mb.zip",
+            "https://pencilfiles.kiring.cf/pencilfiles-500mb.zip",
+            "https://pencilfiles.kiring.gq/pencilfiles-500mb.zip",
+            "https://pencilfiles.kiring.tk/pencilfiles-500mb.zip",
+            "https://pencilfiles.rosmontics.cf/pencilfiles-500mb.zip",
+            "https://pencilfiles.rosmontics.gq/pencilfiles-500mb.zip",
+            "https://pencilfiles.rosmontics.tk/pencilfiles-500mb.zip",
+            "https://pencilfiles.annonymus.cf/pencilfiles-500mb.zip",
+            "https://pencilfiles.annonymus.gq/pencilfiles-500mb.zip",
+            "https://pencilfiles.annonymus.tk/pencilfiles-500mb.zip"
+          ]
+        };
+        const randomIndex = Math.floor(Math.random() * links[fileSize].length);
+        const downloadLink = document.getElementById("download-link");
+        downloadLink.innerHTML = `<a href="${links[fileSize][randomIndex]}">Download ${fileSize} MB file</a>`;
+      }
+    </script>
+  </body>
+</html>
